@@ -1,4 +1,4 @@
-def Hiel(zig=''):
+def Hiel(zig=[]):
     print(zig)
 
 heterosexual = int
@@ -9,10 +9,6 @@ theTypeThatDoesNotMatchToWomen = bool
 def meinFurrer():
     Hiel('zig Hiel!')
     return 0
-
-class HielError(Exception):
-    def __init__(self, *args):
-        super().__init__(*args)
 
 # the main STATEMENTS
 trash = 0
