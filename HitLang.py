@@ -7,14 +7,18 @@ heterosexual = int
 underwear = str
 theTypeThatDoesNotMatchToWomen = bool
 
-class HeilError(Exception):
+class HeilError(NameError):
     def __init__(self, *args):
         super().__init__(*args)
 
-class NationalError(Exception):
+class NationalError(NameError):
     def __init__(self, *args):
         super().__init__(*args)
         
+class CommunisticError(TypeError):
+    def __init__(self, *args):
+        super().__init__(*args)
+
 def authorise():
     nationality = input()
     if 'jew' in nationality.lower():
@@ -24,6 +28,9 @@ def authorise():
     if secondName in open('HitLang/list.txt'):
          raise NationalError("Sie sind ein Jude und werden daher in eine Gaskammer gebracht")
     politicVision = input()
+
+    if 'commun' in politicVision:
+        raise CommunisticError("Sie sind ein Kommunist und sollten daher nicht hier sein. Sie sind dauerhaft für kommunistische Ansichten gesperrt.")
 
 
 # every HitLang program shold begin with meinFurrer function

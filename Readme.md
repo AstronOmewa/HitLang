@@ -4,3 +4,7 @@
  - For example, you can give command "Hiel" to print something on the screen.
  - Every command progression should begin with "meinFurrer", otherwise u'll get bullet in ur head
  - To show the results of given orders u should run Interpreter.py
+2. You can't use this language if:
+ - You aren't Jewish
+ - You aren't Jewish
+ - You aren't communist
