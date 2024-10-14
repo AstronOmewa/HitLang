@@ -7,3 +7,5 @@ f = open('HitLang/list.txt', 'w')
  
 for x in l:     
     f.write(x+'\n')
+
+print(open('HitLang/list.txt').readlines())

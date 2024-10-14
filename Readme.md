@@ -8,3 +8,5 @@
  - You aren't Jewish
  - You aren't Jewish
  - You aren't communist
+3. For some reason, there is technical error, and Jewish people cant use our language:(
+    

@@ -1,4 +1,5 @@
-from HitLang import execute,authorise
+from lang import HitLang as Hit
 
-authorise()
-execute()
+Hit.authorise()
+fileName = input('file name:')
+Hit.execute(file=fileName)

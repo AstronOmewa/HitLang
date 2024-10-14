@@ -1,6 +1,6 @@
-import HitLang as Hit
+import HitLang as Hitler
 
 if __name__ == '__main__':
-    Hit.HeilFurer()
-    l = Hit.theTypeThatDoesNotMatchToWomen(1)
-    Hit.Hiel(['zig',l])
+    Hitler.HeilFurer()
+    l = Hitler.theTypeThatDoesNotMatchToWomen(1)
+    Hitler.Heil(1,2,3)
