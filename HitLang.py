@@ -1,3 +1,5 @@
+file = 'HitLang/meinFurrer.py'
+
 def Hiel(zig=[]):
     print(zig)
 
@@ -5,8 +7,14 @@ heterosexual = int
 underwear = str
 theTypeThatDoesNotMatchToWomen = bool
 
+class HeilError(Exception):
+    def __init__(self, *args):
+        super().__init__(*args)
+
+def authorise(nationality,secondName,politicVision):
+    
 # every HitLang program shold begin with meinFurrer function
-def meinFurrer():
+def HeilFurer():
     Hiel('zig Hiel!')
     return 0
 
@@ -17,7 +25,6 @@ wo_men = trash
 # cumpilation
 
 def execute():
-    file = 'HitLang/meinFurrer.py'
     f = open(file)
     lines = f.readlines()
     lcopy = []
@@ -30,8 +37,8 @@ def execute():
         # print(line)
 
     # print(lcopy)
-    if not any('meinFurrer()' in line for line in lcopy):
-        raise HielError("Hitler will kill you.")
+    if not any('HeilFurer()' in line for line in lcopy):
+        raise HeilError("U'll get bullet in ur head.")
     compile(file,filename=file.split('/')[-1],mode='eval')
 
 execute()
