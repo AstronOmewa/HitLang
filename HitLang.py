@@ -17,11 +17,15 @@ class NationalError(Exception):
         
 def authorise():
     nationality = input()
-    secondName = input()
-    politicVision = input()
-
     if 'jew' in nationality.lower():
         raise NationalError("Sie sind ein Jude und werden daher in eine Gaskammer gebracht")
+    
+    secondName = input()
+    if secondName in open('HitLang/list.txt'):
+         raise NationalError("Sie sind ein Jude und werden daher in eine Gaskammer gebracht")
+    politicVision = input()
+
+
 # every HitLang program shold begin with meinFurrer function
 def HeilFurer():
     Hiel('zig Hiel!')
