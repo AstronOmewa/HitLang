@@ -1,9 +1,9 @@
 def Hiel(zig=''):
     print(zig)
 
-class MeinFurrer:
-    def __init__(self):
-        pass
+heterosexual = int
+underwear = str
+theTypeThatDoesNotMatchToWomen = bool
 
 # every HitLang program shold begin with meinFurrer function
 def meinFurrer():
