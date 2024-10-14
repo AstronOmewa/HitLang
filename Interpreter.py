@@ -1,4 +1,4 @@
-from HitLang import execute
+from HitLang import execute,authorise
 
-
+authorise()
 execute()

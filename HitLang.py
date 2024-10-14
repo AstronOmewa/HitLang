@@ -11,8 +11,17 @@ class HeilError(Exception):
     def __init__(self, *args):
         super().__init__(*args)
 
-def authorise(nationality,secondName,politicVision):
-    
+class NationalError(Exception):
+    def __init__(self, *args):
+        super().__init__(*args)
+        
+def authorise():
+    nationality = input()
+    secondName = input()
+    politicVision = input()
+
+    if 'jew' in nationality.lower():
+        raise NationalError("Sie sind ein Jude und werden daher in eine Gaskammer gebracht")
 # every HitLang program shold begin with meinFurrer function
 def HeilFurer():
     Hiel('zig Hiel!')
